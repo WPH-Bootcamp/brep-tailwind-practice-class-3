@@ -5,13 +5,18 @@
 
 .merah {
   background-color: red;
-  
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .biru {
   background-color: blue;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .hijau {
   background-color: green;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 /* Flex Container */
@@ -21,7 +26,7 @@
   height: 500px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 }
