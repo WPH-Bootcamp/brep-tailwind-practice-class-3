@@ -1,0 +1,28 @@
+body {
+  height: 200dvh;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+}
+
+.hijau {
+  background-color: green;
+  width: 100%;
+}
+.merah {
+  background-color: red;
+  color: white;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
